@@ -2,46 +2,58 @@
 
 Welcome to **Flappy Bird Comes to UJ!** – a fun, university-themed twist on the classic Flappy Bird game. In this game, Flappy is trying to get to class at the University of Jos. Help him navigate pipes, travel the distance, and avoid carryovers!
 
-## Features
+---
 
-* Classic flappy bird gameplay with a University of Jos twist
-* Score meter that tracks how far Flappy travels
-* Restart button unfortunately themed as a "Carry Over"
-* Animated welcome screen and themed background
-* Two versions available: the improved UJ-themed game and the original base version
+## 🎮 For Non-Developers
+
+If you're not a developer and just want to play the game, simply **open `flappybird-in-uj.exe`** — no setup needed!
 
 ---
 
-## Getting Started
+## Features
+
+* Classic Flappy Bird gameplay with a University of Jos twist
+* Score meter that tracks how far Flappy travels
+* Restart button humorously themed as a "Carry Over"
+* Animated welcome screen and UJ-themed background
+* Two playable versions: the improved UJ version and the original base version
+
+---
+
+## 🛠 Getting Started (For Developers)
 
 ### 1. Install Python
 
-First, ensure Python is installed on your system:
+Ensure Python is installed on your machine:
 
-* Download Python from the official website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
-* Run the installer and make sure to check **"Add Python to PATH"**
+* Download it from [python.org](https://www.python.org/downloads/)
+* During installation, check **"Add Python to PATH"**
 
-To confirm installation, open a terminal or command prompt and run:
+Check installation:
 
 ```bash
 python --version
 ```
 
-### 2. (Optional) Set Up a Virtual Environment
+---
 
-To isolate dependencies, you can create a virtual environment:
+### 2. (Optional) Create a Virtual Environment
+
+For isolating project dependencies:
 
 ```bash
 python -m venv venv
-# For Windows:
+# On Windows:
 venv\Scripts\activate
-# For macOS/Linux:
+# On macOS/Linux:
 source venv/bin/activate
 ```
 
-### 3. Install Required Library
+---
 
-Install Pygame using pip:
+### 3. Install Pygame
+
+Install the required library:
 
 ```bash
 pip install pygame
@@ -49,66 +61,70 @@ pip install pygame
 
 ---
 
-## How to Run the Game
+## ▶️ Running the Game
 
-### To Play the UJ Version:
+### UJ-Themed Version
 
 ```bash
 python final.py
 ```
 
-This runs the full version of **Flappy Bird Comes to UJ!**, including scoring, animations, and the University of Jos theme.
+This runs the full **Flappy Bird Comes to UJ!** with themes, scoring, and animations.
 
-### To Play the Original Base Version:
+---
+
+### Original Base Version
 
 ```bash
 python old.py
 ```
 
-This runs the simple, base version of Flappy Bird — great for learning the basics.
+This runs a simple, original-style version great for beginners.
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 Flappy-Bird-in-UJ/
-├── final.py         # Main UJ-themed game
-├── old.py           # Basic original version
-├── assets/          # Game assets for UJ-themed game (images, font)
+├── .gitignore              # Click-and-play executable
+├── final.ico               # Logo
+├── final.py                # Main UJ-themed game
+├── flappybird-in-uj.exe    # Click-and-play executable, run the game here
+├── old.ico                 # Original Logo
+├── old.py                  # Original version
+├── assets/                 # UJ game assets
 │   ├── bg.png
 │   ├── bird1.png
 │   ├── bird2.png
 │   ├── bird3.png
 │   ├── bubble.png
 │   ├── ground.png
-│   ├── logo.png
 │   ├── pipe.png
 │   ├── restart.png
 │   ├── welcome.png
-│   └── PressStart2P.ttf
-├── assets/old/       # Game assets for original version (images, font)
+│   └── PressStart2P.ttf    # Game font
+├── assets/old/             # Assets for original version
 │   ├── bg.png
 │   ├── bird1.png
 │   ├── bird2.png
 │   ├── bird3.png
 │   ├── ground.png
 │   ├── pipe.png
-│   ├── restart.png
-│   └── PressStart2P.ttf
+│   └── restart.png
 ```
 
-Make sure all asset files inside the `public` folder are in place before running the game.
+Make sure the `assets/` folder stays alongside your `.py` files or `.exe`.
 
 ---
 
-## Credits
+## 🙌 Credits
 
-* **Developed by**: Student team from the University of Jos
-* **Inspired by**: Flappy Bird (original game)
+* **Developed by**: Student group at the University of Jos
+* **Inspired by**: The original Flappy Bird game
 * **Built with**: [Pygame](https://www.pygame.org/)
-* **Assets**: Custom and open-source graphics and fonts
+* **Assets**: Custom designs and open-source visuals & fonts
 
 ---
 
-Enjoy the game — and don’t let Flappy miss his class!
+Enjoy the game — and don’t let Flappy miss his class! 🐦🎓
