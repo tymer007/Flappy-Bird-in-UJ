@@ -1,6 +1,6 @@
 # Flappy Bird Comes to UJ!
 
-Welcome to **Flappy Bird Comes to UJ!** – a fun, university-themed twist on the classic Flappy Bird game. In this game, Flappy is trying to get to class at the University of Jos. Help him navigate pipes, travel the distance, and avoid carryovers!
+Welcome to **Flappy Bird Comes to UJ!** – a fun, university of jos themed twist on the classic Flappy Bird game. In this game, Flappy is trying to get to class at the University of Jos. Help navigate pipes and get to his 8am class, travel the campus, and avoid carryovers!
 
 ---
 
