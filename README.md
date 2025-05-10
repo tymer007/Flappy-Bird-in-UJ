@@ -100,6 +100,7 @@ Flappy-Bird-in-UJ/
 │   ├── bird3.png
 │   ├── bubble.png
 │   ├── ground.png
+│   ├── nav_pole.png
 │   ├── pipe.png
 │   ├── restart.png
 │   ├── welcome.png
